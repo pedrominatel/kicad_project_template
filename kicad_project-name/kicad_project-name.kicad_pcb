@@ -122,4 +122,22 @@
     (uvia_drill 0.1)
   )
 
+  (net_class USB ""
+    (clearance 0.3048)
+    (trace_width 0.1524)
+    (via_dia 0.6)
+    (via_drill 0.3)
+    (uvia_dia 0.3)
+    (uvia_drill 0.1)
+  )
+
+  (net_class USB_HS ""
+    (clearance 0.6096)
+    (trace_width 0.1524)
+    (via_dia 0.6)
+    (via_drill 0.3)
+    (uvia_dia 0.3)
+    (uvia_drill 0.1)
+  )
+
 )

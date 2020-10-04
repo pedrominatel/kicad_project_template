@@ -1,4 +1,4 @@
-update=qua 26 ago 2020 15:01:14
+update=dom 04 out 2020 13:15:16
 version=1
 last_client=kicad
 [general]
@@ -12,10 +12,20 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=kicad_project-name.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -259,6 +269,28 @@ Enabled=0
 Name=Default
 Clearance=0.127
 TrackWidth=0.127
+ViaDiameter=0.6
+ViaDrill=0.3
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=USB
+Clearance=0.3048
+TrackWidth=0.1524
+ViaDiameter=0.6
+ViaDrill=0.3
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
+Name=USB_HS
+Clearance=0.6096
+TrackWidth=0.1524
 ViaDiameter=0.6
 ViaDrill=0.3
 uViaDiameter=0.3
